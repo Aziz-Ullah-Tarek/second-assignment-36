@@ -1,0 +1,43 @@
+.nav-logo-part{
+    width: 1200px;
+    margin: auto;
+   margin-top: 1.5rem;
+    display: flex;
+    gap: 750px;
+    justify-content: space-between;
+   align-items: center;}
+.logo{
+    width: 150px;
+    height: 80px;
+}
+.link {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+   
+}
+nav ul li a{
+    text-decoration: none;
+}
+.link-nav{
+    margin-right:3rem;
+   
+    
+}
+
+.home{
+    color: #252432;
+    
+    white-space: nowrap;
+}
+.gray{
+    color: #8987A1;
+    white-space: nowrap;
+    
+}
+ body{
+background-color: #F5F8FF;
+}
+.cart-part{
+    display: flex;
+}
