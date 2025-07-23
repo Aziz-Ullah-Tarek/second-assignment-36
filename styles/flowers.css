@@ -1,7 +1,7 @@
 /* nav-part */
 .nav-logo-part {
     width: 100%;
-    max-width: 1250px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 1.5rem;
     display: flex;
@@ -50,7 +50,7 @@ body {
     gap: 0.5rem;
 }
 
-/* ✅ Mobile responsive */
+/*  Mobile responsive */
 @media only screen and (max-width: 768px) {
     .link-nav:not(.cart-link) {
         display: none;
@@ -60,4 +60,49 @@ body {
         flex-direction: row;
         gap: 0;
     }
+.banner {
+    flex-direction: column;
+   
+  }
+  .banner-img{
+    order: -1;
+  }
+ .banner-p{
+    width: 100%;
+ }
+ 
+}
+
+/*banner-part*/
+.banner{
+    display: flex;
+    align-items: center;
+    
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.fresh-part{
+    color: #E95A08;
+}
+.banner-p{
+    color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin-top: -30px;
+}
+.banner-text{
+    width: 650px;
+    height: 400px;
+    
+}
+.banner-img{
+     width: 650px;
+    height: 400px;
+    margin-top: -80px;
+
 }
