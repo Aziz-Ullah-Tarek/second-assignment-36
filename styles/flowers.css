@@ -51,7 +51,7 @@ body {
 }
 
 /*  Mobile responsive */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
     .link-nav:not(.cart-link) {
         display: none;
     }
@@ -68,7 +68,10 @@ body {
     order: -1;
   }
  .banner-p{
-    width: 100%;
+    width: 576px;
+ }
+ .banner-text{
+    width: 550px;
  }
  
 }
@@ -92,7 +95,7 @@ body {
 }
 .banner-p{
     color: rgba(0, 0, 0, 0.5);
-    width: 350px;
+    width: 550px;
     margin-top: -30px;
 }
 .banner-text{
@@ -103,6 +106,64 @@ body {
 .banner-img{
      width: 650px;
     height: 400px;
-    margin-top: -80px;
+    margin-top: -170px;
 
 }
+/*plants-section*/
+.plants-latest{
+    color: #E95A08;
+}
+.plants-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Plants-Section{
+   align-items: center;
+    
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -80px;
+}
+
+.plants-title{
+   margin-left: 450px;
+}
+.plants-p{
+   margin-left: 350px;
+   margin-top: -20px;
+}
+/*cart-part*/
+.full-cart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+}
+.lily{
+    margin-left: 90px;
+}
+.lily-bl{
+    color: #111111;
+    font-size: px;
+    font-weight:medium;
+}
+main h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -7px;
+    
+}
+.btn-primary{
+    width: 270px;
+    height: 50px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #E95A08;
+    margin-top: -5px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
