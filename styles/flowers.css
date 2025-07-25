@@ -200,7 +200,7 @@ main h4{
   margin-top: 20px;
 }
 .badge{
-  animation: spin 0.2s linear 50;
+  animation: spin 0.2s linear 10;
 }
 @keyframes spin {
     from {
@@ -280,7 +280,7 @@ main h4{
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    width: 750px;
     height: 423.13px;
     display: flex;
     flex-direction: column;
@@ -327,6 +327,77 @@ main h4{
 .join{
   margin-top: 80px;
 }
+.colourful {
+  width: 100vw; /* Force full screen width */
+  height: 533px;
+
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 80px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("../assets/news-letter-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.colourful h3{
+  color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.colourful input {
+    width: 644px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.5);
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0; /* Remove left margin */
+    padding-left: 20px;
+    border: none;
+    outline: none;
+   
+}
+
+.colourful button {
+    all: unset;
+    width: 200px;
+    height: 52px;
+    background: rgb(233, 90, 8);
+    text-align: center;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0; /* Remove right margin */
+    padding: 0;
+}
+.colourful button:hover{
+cursor: pointer;
+background-color: aquamarine;
+}
+.email{
+  display: flex;
+  margin-top: 23px;
+}
+
+
+
+
 
 
 
