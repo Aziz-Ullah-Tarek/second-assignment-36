@@ -218,6 +218,12 @@ body {
 .join-text{
   margin-top: 120px;
 }
+.join-text p{
+  font-size: 20px;
+  
+}
+
+  
 .bloom {
     background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../assets/deal-bloom.png");
     background-repeat: no-repeat;
@@ -577,9 +583,12 @@ background-color: aquamarine;
   display: none;
 }
 .flower-ul li{
-  margin-top: 0px;
-  row-gap: 10px;
+  margin-top: 10px;
+  row-gap: 20px;
+  font-size: 16px;
+  
 }
+
 .flower-title{
   font-size: 30px;
   margin-top: -200px;
@@ -599,6 +608,7 @@ background-color: aquamarine;
 }
 .join-text p{
   margin-left: 60px;
+  font-size: 16px;
 }
 .join-text{
   margin-top: -100px;
@@ -611,7 +621,7 @@ background-color: aquamarine;
   .blooms-display-flex {
     flex-direction: column;
     row-gap: 10px;
-    padding: 0; 
+    padding: 0; }
 
   .bloom,
   .ana,
@@ -699,47 +709,62 @@ background-color: aquamarine;
     .colourful button {
         width: 100px;
     }
-    /*footer part*/
-     .footer {
-        flex-direction: column;
-        margin-left: 20px;
-        padding-bottom: 40px;
-    }
+    /*footer part responsive*/
+   .footer.container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
 
-    .footer-logo {
-        width: 100%;
-    }
+  .footer-logo {
+    width: 100%;
+  }
 
-    .footer-logo p {
-        margin-bottom: 30px;
-        margin-left: 10px;
-        margin-right: 20px;
-    }
+  .footer-logo img {
+    width: 120px;
+    height: auto;
+  }
 
-    .footer a {
-        margin-left: 20px;
-    }
+  .footer-logo p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
 
-    .link {
-        margin-bottom: 20px;
-        margin-left: -45px;
-    }
+  .link {
+    width: 100%;
+    margin: 0;
+  }
 
-    .flower-store {
-        width:94%;
-        margin-left:2.5%;
-    }
+  .link ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
 
-    .plant-section {
-        margin-left: 20px;
-    }
+  .link li {
+    margin-bottom: 8px;
+  }
 
-    .footer-img {
-        margin-left: 20px;
-        margin-top: 30px;
-    }
-}
-}
+  .link a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .footer-img {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .footer-img img {
+    width: 24px;
+    height: 24px;
+  }
+  }
+
 
 
   
